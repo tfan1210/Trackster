@@ -19,6 +19,7 @@ Trackster.renderTracks = function(tracks) {
   for (var trackIndex = 0; trackIndex < tracks.length; trackIndex++) {
     var track = tracks[trackIndex];
     var mediumAlbumArt = track.image[1]["#text"];
+
     var htmlTrackRow =
       '<div class="row track">' +
       '  <div class="col-xs-1 col-xs-offset-1 play-button">' +
